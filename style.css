@@ -25,3 +25,28 @@ body{
 
 }
 
+#index-nav ul{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#index-nav li{
+    font-size: 1.3em;
+    background-color: white;
+    padding: 1em;
+    color: transparent;
+}
+
+#index-nav a {
+    border-color: aquamarine;
+    text-decoration: none;
+    color: black; 
+}
+#index-nav a:hover{
+    color: maroon;
+}
+#index-nav li:hover{
+    background-color: lightpink; 
+}
+
