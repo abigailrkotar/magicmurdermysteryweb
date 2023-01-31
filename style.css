@@ -1,7 +1,8 @@
 body{
     font-family: monospace; 
-    background-image: url(/images/castle.jpg);
+    background-color: rgba(90, 75, 115, 0.832);
     margin-top: 3vw;
+    font-size: 2vh;
     
 }
 
@@ -44,9 +45,17 @@ body{
     color: black; 
 }
 #index-nav a:hover{
-    color: maroon;
+    color: white;
 }
 #index-nav li:hover{
-    background-color: lightpink; 
+    background-color: darkblue; 
+
 }
+
+#index-main-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
