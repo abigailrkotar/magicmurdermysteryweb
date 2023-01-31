@@ -18,12 +18,16 @@ body{
 #page-title {
     display: flex;
     font: bold;
-    font-size: 4em;
+    font-size: 4.8em;
     font-family: Copperplate;
     justify-content: center; 
     color: purple;
     text-shadow: 0.1vw 0.1vw 1px lavender ;
 
+}
+
+#index-nav {
+    background-color: aliceblue;
 }
 
 #index-nav ul{
@@ -34,7 +38,6 @@ body{
 
 #index-nav li{
     font-size: 1.3em;
-    background-color: white;
     padding: 1em;
     color: transparent;
 }
@@ -55,6 +58,11 @@ body{
 #index-main-text{
     display: flex;
     flex-direction: column;
+}
+#index-main-text p:hover{
+    color: red; 
+    text-shadow: 0.1vw 0.1vw 1px black;
+    
 }
 
 
