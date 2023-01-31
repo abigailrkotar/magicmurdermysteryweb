@@ -1,0 +1,27 @@
+body{
+    font-family: monospace; 
+    background-image: url(/images/castle.jpg);
+    margin-top: 3vw;
+    
+}
+
+#content-area {
+    margin: 0 10vw;
+    background-color: lightsteelblue;;
+    padding: 10px 10vw;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+
+#page-title {
+    display: flex;
+    font: bold;
+    font-size: 4em;
+    font-family: Copperplate;
+    justify-content: center; 
+    color: purple;
+    text-shadow: 0.1vw 0.1vw 1px lavender ;
+
+}
+
