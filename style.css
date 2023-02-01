@@ -26,10 +26,6 @@ body{
 
 }
 
-#index-nav {
-    background-color: aliceblue;
-}
-
 #index-nav ul{
     display: flex; 
     flex-direction: row;
@@ -62,7 +58,16 @@ body{
 #index-main-text p:hover{
     color: red; 
     text-shadow: 0.1vw 0.1vw 1px black;
-    
+}
+
+#p2 {
+    margin-left: 125px;
+}
+#p3 {
+    margin-left: 300px; 
+}
+#p4 {
+    margin-left: 470px; 
 }
 
 
