@@ -39,16 +39,13 @@ body{
 }
 
 #index-nav a {
-    border-color: aquamarine;
+    background-color: white;
     text-decoration: none;
-    color: black; 
+    color: darkblue; 
 }
 #index-nav a:hover{
     color: white;
-}
-#index-nav li:hover{
-    background-color: darkblue; 
-
+    background-color: darkblue;
 }
 
 #index-main-text{
