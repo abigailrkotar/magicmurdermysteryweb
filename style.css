@@ -1,19 +1,20 @@
 body{
+    display: grid; 
     font-family: monospace; 
     background-color: rgba(90, 75, 115, 0.832);
-    margin-top: 3vw;
+    margin-top: 0.6vw;
     font-size: 2vh;
-    
+    max-width: 100%; 
 }
 
 #content-area {
-    margin: 0 10vw;
+    margin: 0vh 1vw;
     background-color: lightsteelblue;;
-    padding: 10px 10vw;
-    box-sizing: border-box;
-    position: relative;
-   
+    padding: 0 4vw;
+    position: relative; 
+    
 }
+
 
 #page-title {
     display: flex;
@@ -36,16 +37,20 @@ body{
     font-size: 1.3em;
     padding: 1em;
     color: transparent;
+    background-color: white;
+    width: 50%; 
+    text-align: center;
 }
 
 #index-nav a {
-    background-color: white;
     text-decoration: none;
     color: darkblue; 
+    
 }
-#index-nav a:hover{
-    color: white;
-    background-color: darkblue;
+
+
+#index-nav li:hover{
+    background-color: lightskyblue;
 }
 
 #index-main-text{
@@ -58,14 +63,15 @@ body{
 }
 
 #p2 {
-    margin-left: 125px;
+    margin-left: 300px;
 }
 #p3 {
-    margin-left: 300px; 
+    margin-left: 700px; 
 }
 #p4 {
-    margin-left: 470px; 
+    margin-left: 1000px; 
 }
+
 
 
 
