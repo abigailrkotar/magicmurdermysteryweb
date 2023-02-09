@@ -22,19 +22,20 @@ body{
     font-size: 4.8em;
     font-family: Copperplate;
     justify-content: center; 
-    /*background-color: rgba(225, 213, 244, 0.832);*/
     color: purple;
     text-shadow: 0.1vw 0.1vw 1px rgb(255, 255, 255) ;
 
+
 }
 
-#index-nav ul{
+#index-nav ul, #story-nav ul{
     display: flex; 
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
-#index-nav li{
+#index-nav li, #story-nav li{
     font-size: 1.3em;
     padding: 1em;
     color: transparent;
@@ -43,14 +44,14 @@ body{
     text-align: center;
 }
 
-#index-nav a {
+#index-nav a, #story-nav a{
     text-decoration: none;
     color: darkblue; 
     
 }
 
 
-#index-nav li:hover{
+#index-nav li:hover, #story-nav li:hover{
     background-color: lightskyblue;
 }
 
@@ -135,6 +136,33 @@ reviews h2
 
 reviews img{
     max-width: 100px;
+}
+
+.grid-container{
+    display:grid; 
+    grid-template-columns: 10% 60% 20% 10%;
+}
+
+#story-nav {
+    grid-column-start:1 ;
+    grid-column-end: 6;
+}
+
+main-story{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: larger;
+}
+
+aside-story{
+    grid-column-start: 3;
+    grid-column-end: 4; 
+}
+
+factions-story{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
