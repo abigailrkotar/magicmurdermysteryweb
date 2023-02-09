@@ -5,6 +5,7 @@ body{
     margin-top: 0.6vw;
     font-size: 2vh;
     max-width: 100%; 
+    
 }
 
 #content-area {
@@ -12,7 +13,6 @@ body{
     background-color: rgba(220, 204, 244, 0.832);
     padding: 0 4vw;
     position: relative; 
-    
 }
 
 
@@ -77,10 +77,16 @@ factions-text{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 5vh; 
 }
 factions-img{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 10vh;
+}
+#p7{
+    font-size: larger;
+    font-weight: bold;
 }
 #royalist, #witches, #anarchist{
     max-width: 100px;
@@ -96,12 +102,19 @@ footer
 #castle-pic{
     width: 100%;
 }
-
+#android{
+    max-width: 500px; 
+    background-color: white; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 reviews
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 7vh;
 }
 
 reviews h2
