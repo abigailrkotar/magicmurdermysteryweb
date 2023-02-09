@@ -1,7 +1,7 @@
 body{
     display: grid; 
     font-family: monospace; 
-    background-color: rgba(90, 75, 115, 0.832);
+    background-color: white;
     margin-top: 0.6vw;
     font-size: 2vh;
     max-width: 100%; 
@@ -9,7 +9,7 @@ body{
 
 #content-area {
     margin: 0vh 1vw;
-    background-color: white;
+    background-color: rgba(220, 204, 244, 0.832);
     padding: 0 4vw;
     position: relative; 
     
@@ -22,8 +22,9 @@ body{
     font-size: 4.8em;
     font-family: Copperplate;
     justify-content: center; 
+    /*background-color: rgba(225, 213, 244, 0.832);*/
     color: purple;
-    text-shadow: 0.1vw 0.1vw 1px lavender ;
+    text-shadow: 0.1vw 0.1vw 1px rgb(255, 255, 255) ;
 
 }
 
@@ -70,6 +71,12 @@ body{
 }
 #p4 {
     margin-left: 1000px; 
+}
+
+factions-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer 
