@@ -141,7 +141,7 @@ reviews img{
 .grid-container{
     display:grid; 
     grid-template-columns: 10% 60% 20% 10%;
-    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: 10% 20% 20% 20% 20% 10%;
 }
 
 #story-nav {
@@ -161,7 +161,7 @@ reviews img{
     grid-column-start: 4;
     grid-column-end: 3; 
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 5;
     text-align: center;
 }
 
@@ -172,9 +172,20 @@ factions-story{
     align-items: center;
 }
 
+.custimization{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    text-align: center;
+}
+
 story-footer{
     grid-column-start: 1;
     grid-column-end: 6; 
+    grid-row-start: 7;
+    grid-row-end: 8;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px; 
