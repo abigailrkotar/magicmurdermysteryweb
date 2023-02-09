@@ -90,6 +90,11 @@ factions-img{
 }
 #royalist, #witches, #anarchist{
     max-width: 100px;
+    
+}
+
+#royalist:hover, #witches:hover, #anarchist:hover{
+    background-color: black;
 }
 
 footer 
