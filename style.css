@@ -148,21 +148,33 @@ reviews img{
     grid-column-end: 6;
 }
 
-main-story{
+.main-story{
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: larger;
 }
 
-aside-story{
-    grid-column-start: 3;
-    grid-column-end: 4; 
+.aside-story{
+    grid-column-start: 2;
+    grid-column-end: 3; 
 }
 
 factions-story{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+story-footer{
+    grid-column-start: 1;
+    grid-column-end: 6; 
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+story-footer #android
+{
+    max-height: 50px; 
 }
 
 
