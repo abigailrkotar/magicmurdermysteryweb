@@ -268,7 +268,7 @@ info-footer #android{
 
 #royalist-title{
     text-align: center;
-    color: indigo;
+    color: goldenrod;
 }
 
 #royal1, #royal2, #royal3, #anarch1, #anarch2, #anarch3, #witch1, #witch2, #witch3
@@ -304,7 +304,7 @@ info-footer #android{
 
 #anarchy-title{
     text-align:center;
-    color:brown
+    color:red;
 }
 
 
@@ -318,7 +318,7 @@ info-footer #android{
 
 #witches-title
 {
-    color: darkslateblue; 
+    color: green; 
     text-align: center;
 }
 
