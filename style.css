@@ -281,7 +281,7 @@ info-footer #android{
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 10% 10% 20% 20% 20% 10% 10%;
 }
-#meet-the-royalists{
+#meet-the-royalists, #meet-the-anarchist{
     text-align: center; 
     grid-row-start: 1;
     grid-row-end: 3; 
@@ -302,5 +302,21 @@ info-footer #android{
     grid-column-end: 3; 
 }
 
+#anarchy-title{
+    text-align:center;
+    color:brown
+}
+
+#anarch1, #anarch2, #anarch3{
+    text-align: center;
+}
+
+.mortan{
+    grid-row-start:2;
+    grid-row-end: 7;
+    grid-column-start:1;
+    grid-column-end: 3;
+    text-align: center;
+}
 
 
