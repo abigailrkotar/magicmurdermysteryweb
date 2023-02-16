@@ -266,5 +266,15 @@ info-footer #android{
     max-height: 50px; 
 }
 
+#royalist-title{
+    text-align: center;
+    color: indigo;
+}
+
+#royal1, #royal2, #royal3
+{
+    text-align: center;
+}
+
 
 
