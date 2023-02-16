@@ -271,7 +271,7 @@ info-footer #android{
     color: indigo;
 }
 
-#royal1, #royal2, #royal3
+#royal1, #royal2, #royal3, #anarch1, #anarch2, #anarch3, #witch1, #witch2, #witch3
 {
     text-align: center;
 }
@@ -281,7 +281,7 @@ info-footer #android{
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 10% 10% 20% 20% 20% 10% 10%;
 }
-#meet-the-royalists, #meet-the-anarchist{
+#meet-the-royalists, #meet-the-anarchist, #meet-the-witches{
     text-align: center; 
     grid-row-start: 1;
     grid-row-end: 3; 
@@ -307,11 +307,8 @@ info-footer #android{
     color:brown
 }
 
-#anarch1, #anarch2, #anarch3{
-    text-align: center;
-}
 
-.mortan{
+.mortan, .onyx{
     grid-row-start:2;
     grid-row-end: 7;
     grid-column-start:1;
@@ -319,4 +316,9 @@ info-footer #android{
     text-align: center;
 }
 
+#witches-title
+{
+    color: darkslateblue; 
+    text-align: center;
+}
 
