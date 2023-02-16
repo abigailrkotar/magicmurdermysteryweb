@@ -185,8 +185,8 @@ factions-story{
 story-footer{
     grid-column-start: 1;
     grid-column-end: 6; 
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-start: 8;
+    grid-row-end: 9;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px; 
@@ -274,6 +274,32 @@ info-footer #android{
 #royal1, #royal2, #royal3
 {
     text-align: center;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 10% 20% 20% 20% 10% 10%;
+}
+#meet-the-royalists{
+    text-align: center; 
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+.joanna{
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.lucien{
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3; 
 }
 
 
