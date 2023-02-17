@@ -54,6 +54,8 @@ body{
     background-color: lightskyblue;
 }
 
+/** Main Page CSS **/
+
 #index-main-text{
     display: flex;
     flex-direction: column;
@@ -137,6 +139,8 @@ reviews img{
     max-width: 100px;
 }
 
+/** App Content Page CSS **/
+
 .grid-container{
     display:grid; 
     grid-template-columns: 10% 60% 20% 10%;
@@ -175,7 +179,7 @@ factions-story{
 .custimization{
     display: flex;
     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-end: 8;
     grid-row-start: 4;
     grid-row-end: 6;
     text-align: center;
@@ -194,6 +198,8 @@ story-footer #android
 {
     max-height: 50px; 
 }
+
+/** About Us Page CSS **/
 .grid-container1{
     display: grid;
     grid-template-columns: 10% 10% 15% 30% 15% 10% 10%;
@@ -265,29 +271,12 @@ info-footer #android{
     max-height: 50px; 
 }
 
+/** Royalist Page CSS **/
+
 #royalist-title{
     text-align: center;
     color: goldenrod;
 }
-
-#royal1, #royal2, #royal3, #anarch1, #anarch2, #anarch3, #witch1, #witch2, #witch3
-{
-    text-align: center;
-}
-
-.grid-container2{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 10% 10% 20% 20% 20% 10% 10%;
-}
-#meet-the-royalists, #meet-the-anarchist, #meet-the-witches{
-    text-align: center; 
-    grid-row-start: 1;
-    grid-row-end: 3; 
-    grid-column-start: 1;
-    grid-column-end: 3; 
-}
-
 .joanna{
     grid-row-start: 2;
     grid-row-end: 7;
@@ -301,12 +290,24 @@ info-footer #android{
     grid-column-end: 3; 
 }
 
-#anarchy-title{
-    text-align:center;
-    color:red;
+/** CSS For Royalists, Anarchists, and Witches **/
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 10% 10% 20% 20% 20% 10% 10%;
 }
-
-
+#meet-the-royalists, #meet-the-anarchist, #meet-the-witches{
+    text-align: center; 
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+#royal1, #royal2, #royal3, #anarch1, #anarch2, #anarch3, #witch1, #witch2, #witch3
+{
+    text-align: center;
+}
 .mortan, .onyx{
     grid-row-start:2;
     grid-row-end: 7;
@@ -315,11 +316,20 @@ info-footer #android{
     text-align: center;
 }
 
+
+#anarchy-title{
+    text-align:center;
+    color:red;
+}
+
+
 #witches-title
 {
     color: green; 
     text-align: center;
 }
+
+/** Media for Horizontal Tablet **/
 
 @media(max-width: 1280px)
 {
@@ -330,11 +340,17 @@ info-footer #android{
     }
 }
 
+/** Media for Vertical Tablet **/
+
 @media(max-width: 800px)
 {
     /*
     story page changes
     */
+    .main-story{
+        text-align: center;
+    }
+
     .aside-story{
         grid-row-start: 6;
         grid-row-end: 6;
