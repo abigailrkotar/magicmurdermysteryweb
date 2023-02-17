@@ -46,7 +46,8 @@ body{
 #index-nav a, #story-nav a{
     text-decoration: none;
     color: darkblue; 
-    
+    line-height: 2rem;
+    padding: 3em; 
 }
 
 
