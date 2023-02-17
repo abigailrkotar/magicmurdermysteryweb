@@ -401,6 +401,36 @@ info-footer #android{
         max-width: 25%;
     }
 
+    /*About Us */
+    #grid-container1
+    {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 40% 20% 20% 20% 10%;
+    }
+    .names
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        
+    }
+    .bios{
+        grid-column-start: 3;
+        grid-row-start: 2;
+        
+    }
+    .headshots{
+        display: none;
+    }
+
+    .about-app{
+        grid-row-start: 6;
+        grid-row-end: 8;
+        
+        font-size: x-large;
+    }
+
 
 }
 
