@@ -346,6 +346,9 @@ info-footer #android{
 
 @media(max-width: 800px)
 {
+    #index-nav a, #story-nav a{
+        padding: 0.5em; 
+    }
     /*
     story page changes
     */
